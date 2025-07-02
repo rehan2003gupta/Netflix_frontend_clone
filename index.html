@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <div class="main">
         <div class="header">
@@ -40,38 +43,40 @@
                 <h3>Ready to watch? Enter your email to create or restart your membership.</h4>
             </div>
             <div class="buttons">
-                <input type="email" id="email" placeholder="Email address">
-                <button class="get_start">
-                    <p class="get">Get Started ></p>
-                </button>
+                <form id="emailForm" class="buttons">
+                    <input type="email" id="email" placeholder="Email address" required>
+                    <button type="submit" class="get_start">
+                        <p class="get">Get Started ></p>
+                    </button>
+                </form>
             </div>
         </div>
         <!-- hello everyone this is just try  jii haaa-->
     </div>
     <div class="curve">
-      <img id="curves" src="./images/Screenshot 2025-02-08 171036.png" alt="">      
+        <img id="curves" src="./images/Screenshot 2025-02-08 171036.png" alt="">
     </div>
     <div class="content">
         <div class="trending_now">
             <p class="trends">Trending Now </p>
         </div>
-           <div class="xx">
+        <div class="xx">
             <div class="carousel-container">
                 <button class="prev-btn">&#10094;</button>
                 <div class="carousel">
                     <div class="item">
-                        <img  id="poster" src="./images/pushpa.jpg" alt="">
+                        <img id="poster" src="./images/pushpa.jpg" alt="">
                     </div>
-                    <div class="item"><img  id="poster" src="./images/squid_game.jpg" alt=""></div>
-                    <div class="item"><img  id="poster" src="./images/lucky.jpg" alt=""></div>
-                    <div class="item"><img  id="poster" src="./images/venom.jpg" alt=""></div>
-                    <div class="item"><img  id="poster" src="./images/bhul.jpg" alt=""></div>
-                   
+                    <div class="item"><img id="poster" src="./images/squid_game.jpg" alt=""></div>
+                    <div class="item"><img id="poster" src="./images/lucky.jpg" alt=""></div>
+                    <div class="item"><img id="poster" src="./images/venom.jpg" alt=""></div>
+                    <div class="item"><img id="poster" src="./images/bhul.jpg" alt=""></div>
+
                 </div>
                 <button class="next-btn">&#10095;</button>
             </div>
-           </div>
-            
+        </div>
+
     </div>
     <div class="reasons">
         <div class="reasons_header">
@@ -79,252 +84,246 @@
         </div>
         <div class="reasons_content">
             <div class="items">
-                    <div class="tv_head">
-                        <h2 class="item_header">Enjoy on your TV</h2>
-                    <p class="item_desc">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-                    </div>
-                    <div class="tv">
-                        <img id="tvs" src="./images/tv.png" alt="">
-                      </div>
-                  </div>
-                 
+                <div class="tv_head">
+                    <h2 class="item_header">Enjoy on your TV</h2>
+                    <p class="item_desc">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players,
+                        and more.</p>
+                </div>
+                <div class="tv">
+                    <img id="tvs" src="./images/tv.png" alt="">
+                </div>
+            </div>
+
             <div class="items">
                 <div class="tv_head">
                     <h2 class="item_header">Download your shows to watch offline</h2>
-                <p class="item_desc">Save your favourites easily and always have something to watch.</p>
+                    <p class="item_desc">Save your favourites easily and always have something to watch.</p>
                 </div>
                 <div class="tv">
                     <img id="tvs" src="./images/arrow.png" alt="">
-                  </div>
+                </div>
             </div>
-            <div class="items"> <div class="tv_head">
-                <h2 class="item_header">Watch everywhere</h2>
-            <p class="item_desc">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+            <div class="items">
+                <div class="tv_head">
+                    <h2 class="item_header">Watch everywhere</h2>
+                    <p class="item_desc">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                </div>
+                <div class="tv">
+                    <img id="tvs" src="./images/create.png" alt="">
+                </div>
             </div>
-            <div class="tv">
-                <img id="tvs" src="./images/create.png" alt="">
-              </div></div>
-            <div class="items"> <div class="tv_head">
-                <h2 class="item_header">Create profiles for kids</h2>
-            <p class="item_desc">Send kids on adventures with their favourite characters in a space made just for them — 
-                free with your membership.</p>
+            <div class="items">
+                <div class="tv_head">
+                    <h2 class="item_header">Create profiles for kids</h2>
+                    <p class="item_desc">Send kids on adventures with their favourite characters in a space made just
+                        for them —
+                        free with your membership.</p>
+                </div>
+                <div class="tv">
+                    <img id="tvs" src="./images/emoji.png" alt="">
+                </div>
             </div>
-            <div class="tv">
-                <img id="tvs" src="./images/emoji.png" alt="">
-              </div></div>
         </div>
+    </div>
+    <div class="faqs_header">
+        <h2 class="faqs_head">Frequently Asked Questions</h2>
+    </div>
+    <div class="faqs">
+
+        <div class="custom-dropdown">
+            <button class="dropdown-btn">What is Netflix? <span>▼</span></button>
+            <ul class="dropdown-list">
+                <li>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.
+
+
+                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </li>
+            </ul>
         </div>
-        <div class="faqs_header">
-            <h2 class="faqs_head">Frequently Asked Questions</h2>
+
+        <div class="custom-dropdown">
+            <button class="dropdown-btn">How much does Netflix cost? <span>▼</span></button>
+            <ul class="dropdown-list">
+                <li>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                    monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</li>
+            </ul>
         </div>
-        <div class="faqs">
-            
-            <div class="custom-dropdown">
-                <button class="dropdown-btn">What is Netflix? <span>▼</span></button>
-                <ul class="dropdown-list">
-                    <li>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
-                        
 
-                        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</li>
-                </ul>
-            </div>
+        <div class="custom-dropdown">
+            <button class="dropdown-btn">Where can I watch? <span>▼</span></button>
+            <ul class="dropdown-list">
+                <li>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                    netflix.com from your personal computer or on any internet-connected device that offers the Netflix
+                    app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
 
-            <div class="custom-dropdown">
-                <button class="dropdown-btn">How much does Netflix cost? <span>▼</span></button>
-                <ul class="dropdown-list">
-                    <li>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</li>
-                </ul>
-            </div>
+                    You can also download your favourite shows with the iOS or Android app. Use downloads to watch while
+                    you're on the go and without an internet connection. Take Netflix with you anywhere.</li>
+            </ul>
+        </div>
 
-            <div class="custom-dropdown">
-                <button class="dropdown-btn">Where can I watch? <span>▼</span></button>
-                <ul class="dropdown-list">
-                    <li>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+        <div class="custom-dropdown">
+            <button class="dropdown-btn">How do I cancel? <span>▼</span></button>
+            <ul class="dropdown-list">
+                <li>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
+                    account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                </li>
+            </ul>
+        </div>
 
-                        You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</li>
-                </ul>
-            </div>
+        <div class="custom-dropdown">
+            <button class="dropdown-btn">What can I watch on Netflix? <span>▼</span></button>
+            <ul class="dropdown-list">
+                <li>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                    Netflix originals, and more. Watch as much as you want, anytime you want.</li>
+            </ul>
+        </div>
 
-            <div class="custom-dropdown">
-                <button class="dropdown-btn">How do I cancel? <span>▼</span></button>
-                <ul class="dropdown-list">
-                    <li>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</li>
-                </ul>
-            </div>
+        <div class="custom-dropdown">
+            <button class="dropdown-btn">Is Netflix good for kids? <span>▼</span></button>
+            <ul class="dropdown-list">
+                <li>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                    family-friendly TV shows and films in their own space.
 
-            <div class="custom-dropdown">
-                <button class="dropdown-btn">What can I watch on Netflix? <span>▼</span></button>
-                <ul class="dropdown-list">
-                    <li>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</li>
-                </ul>
-            </div>
-
-            <div class="custom-dropdown">
-                <button class="dropdown-btn">Is Netflix good for kids? <span>▼</span></button>
-                <ul class="dropdown-list">
-                    <li>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
-
-                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</li>
-                </ul>
-            </div>
+                    Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                    content kids can watch and block specific titles you don’t want kids to see.</li>
+            </ul>
+        </div>
 
     </div>
-        <div class="reads">
-            <h3>Ready to watch? Enter your email to create or restart your membership.</h4>
-        </div>
-        <div class="xy">
-            <div class="but">
-            <input type="email" id="email" placeholder="Email address">
-            <button class="get_start">
-                <p class="get">Get Started ></p>
-            </button>
-        </div>
-  </div>
-  <div class="footer">
-    <div class="questions">
-        <p class="ques">Questions? Call <a id="number" href="#">000-800-919-1743</a></p>
+    <div class="reads">
+        <h3>Ready to watch? Enter your email to create or restart your membership.</h4>
     </div>
-    <div class="footer_body">
+    <div class="xy">
+        <div class="buttons">
+            <form id="emailForm emailForm2" class="buttons">
+                    <input type="email" id="email" placeholder="Email address" required>
+                    <button type="submit" class="get_start">
+                        <p class="get">Get Started ></p>
+                    </button>
+                </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="questions">
+            <p class="ques">Questions? Call <a id="number" href="#">000-800-919-1743</a></p>
+        </div>
+        <div class="footer_body">
+
+            <div class="footer_grid">
+                <!-- column1 -->
+                <div class="footer_grid_column">
+
+                    <ul class="footer_links_list">
+                        <li>
+                            <a href="#overview" class="footer_link">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Investor Relations</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Speed Test</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- column2 -->
+                <div class="footer_grid_column">
+
+                    <ul class="footer_links_list">
+                        <li>
+                            <a href="#overview" class="footer_link">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Cookie Preferences</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Legal Notices</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- column3 -->
+                <div class="footer_grid_column">
+
+                    <ul class="footer_links_list">
+                        <li>
+                            <a href="#overview" class="footer_link">
+                                Account</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Ways to Watch</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">Corporate Information</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">
+                                Only on Netflix</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- column4 -->
+                <div class="footer_grid_column">
+
+                    <ul class="footer_links_list">
+                        <li>
+                            <a href="#overview" class="footer_link">
+                                Media Centre</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">
+                                Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer_link">
+                                Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="beside_footer">
+        <div class="langs">
+            <select class="language">
+                <option value=" English"> English</option>
+                <option value="Hindi"> हिंदी</option>
+            </select>
+        </div>
+        <div class="netflix">
+            <p class="net">
+                Netflix India
+            </p>
+        </div>
+    </div>
+
+    <script>
         
-    <div class="footer_grid">
-        <!-- column1 -->
-        <div class="footer_grid_column">
-           
-        <ul class="footer_links_list">
-            <li>
-                <a href="#overview" class="footer_link">FAQ</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Investor Relations</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Privacy</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Speed Test</a>
-            </li>
-        </ul>
-        </div>
-        <!-- column2 -->
-        <div class="footer_grid_column">
-           
-        <ul class="footer_links_list">
-            <li>
-                <a href="#overview" class="footer_link">Help Center</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Jobs</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Cookie Preferences</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Legal Notices</a>
-            </li>
-            
-        </ul>
-        </div>
-        <!-- column3 -->
-        <div class="footer_grid_column">
-            
-        <ul class="footer_links_list">
-            <li>
-                <a href="#overview" class="footer_link">
-                    Account</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Ways to Watch</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">Corporate Information</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">
-                    Only on Netflix</a>
-            </li>
-        </ul>
-        </div>
-        <!-- column4 -->
-        <div class="footer_grid_column">
-           
-        <ul class="footer_links_list">
-            <li>
-                <a href="#overview" class="footer_link">
-                    Media Centre</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">
-                    Terms of Use</a>
-            </li>
-            <li>
-                <a href="#overview" class="footer_link">
-                    Contact Us</a>
-            </li>
-        </ul>
-        </div>
-    </div>
-    </div>
-  </div>
-  <div class="beside_footer">
-    <div class="langs">
-        <select class="language">
-            <option value=" English"> English</option>
-            <option value="Hindi"> हिंदी</option>
-        </select>
-    </div>
-    <div class="netflix">
-        <p class="net">
-            Netflix India
-        </p>
-    </div>
-  </div>
+        document.querySelectorAll(".dropdown-btn").forEach(button => {
+            button.addEventListener("click", function () {
+                const dropdownList = this.nextElementSibling;
+                const icon = this.querySelector("span");
 
-
-
-
-
-
-
-
-
-<script>
-   let currentIndex = 0;
-const itemsPerScreen = 5; // Show 5 items at a time
-const itemWidth = 13; // 12vw (item) + 1vw (margin)
-const totalItems = document.querySelectorAll(".item").length;
-const maxIndex = Math.floor(totalItems / itemsPerScreen);
-const carousel = document.querySelector(".carousel");
-
-document.querySelector(".next-btn").addEventListener("click", () => {
-    if (currentIndex < maxIndex - 1) { 
-        currentIndex++;
-        carousel.style.transform = `translateX(-${currentIndex * itemsPerScreen * itemWidth}vw)`;
-    }
-});
-
-document.querySelector(".prev-btn").addEventListener("click", () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-        carousel.style.transform = `translateX(-${currentIndex * itemsPerScreen * itemWidth}vw)`;
-    }
-});
-document.querySelectorAll(".dropdown-btn").forEach(button => {
-        button.addEventListener("click", function () {
-            const dropdownList = this.nextElementSibling;
-            const icon = this.querySelector("span");
-
-            if (dropdownList.style.maxHeight === "0px" || dropdownList.style.maxHeight === "") {
-                dropdownList.style.maxHeight = dropdownList.scrollHeight + "px";
-                dropdownList.style.padding = "10px"; /* Adds spacing */
-                icon.innerHTML = "▲";
-            } else {
-                dropdownList.style.maxHeight = "0px";
-                dropdownList.style.padding = "0"; /* Removes spacing */
-                icon.innerHTML = "▼";
-            }
+                if (dropdownList.style.maxHeight === "0px" || dropdownList.style.maxHeight === "") {
+                    dropdownList.style.maxHeight = dropdownList.scrollHeight + "px";
+                    dropdownList.style.padding = "10px"; /* Adds spacing */
+                    icon.innerHTML = "▲";
+                } else {
+                    dropdownList.style.maxHeight = "0px";
+                    dropdownList.style.padding = "0"; /* Removes spacing */
+                    icon.innerHTML = "▼";
+                }
+            });
         });
-    });
 
-</script> 
+    </script>
 </body>
+
 </html>

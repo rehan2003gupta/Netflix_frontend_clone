@@ -6,7 +6,7 @@ box-sizing: border-box;
 .main{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/IN-en-20250203-TRIFECTA-perspective_46eb8857-face-4ea6-b901-dbf22b461369_large.jpg); /* Set your background image */
+    background-image: url(/images/IN-en-20250203-TRIFECTA-perspective_46eb8857-face-4ea6-b901-dbf22b461369_large.jpg); /* Set your background image */
     background-size: cover; /* Cover the whole div */
     background-position: center; /* Center the image */
     display: flex;
@@ -128,6 +128,7 @@ input{
     border: 0.5px solid rgb(171, 171, 171);
     outline: none; /* Removes default outline */
     transition: border 0.3s ease-in-out;
+    color: white;
 }
 button{
     height: 100%;
